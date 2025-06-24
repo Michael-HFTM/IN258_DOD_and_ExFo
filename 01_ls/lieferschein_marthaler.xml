@@ -1,0 +1,40 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<order xmlns="http://www.hftm-erp.ch/orders/"
+    xmlns:pos="http://www.hftm-erp.ch/orders/pos/">
+    <addresses>
+        <recipent>
+            <name>Mir egal GmbH</name>
+            <street>Lagerstrasse 18</street>
+            <plz>4500</plz>
+            <ort>Solothurn</ort>
+        </recipent>
+        <sender>
+            <name>Martholer AG</name>
+            <name2>Business-Center BS</name2>
+            <street>Dorfstrasse 18</street>
+            <plz>4010</plz>
+            <ort>Basel</ort>
+        </sender>
+    </addresses>
+    <main>
+        <docTitle>Lieferschein</docTitle>
+        <header>
+            <documentNumber>L2014-0000035</documentNumber>
+            <orderdate>2014-04-21</orderdate>
+            <orderNumber>2014-0000001</orderNumber>
+            <deliverydate>2014-04-25</deliverydate>
+            <yourRef>Fredi Hinz</yourRef>
+            <ourRef>Gustav Gans</ourRef>
+        </header>
+        <positions>
+            <pos:position pos="1" name="Bluetenpollen C30 Beifuss" amount="10.0"/>
+            <pos:position pos="2" name="Bluetenpollen C30 Erle" id="BP-C30-E" amount="10.0"/>
+            <pos:position pos="3" name="Bluetenpollen C30 Roggen" amount="10.0"/>
+            <pos:position pos="4" name="Aphoteke 42 Div" amount="5.0"/>
+            <pos:position pos="5" name="Zincum metallicum D6" amount="20.0"/>
+        </positions>
+        <info>Achtung: Die Nahrungsergänzung Blutenpollen Beifuss müssen bis zum 31. August 2014
+            verbraucht werden
+        </info>
+    </main>
+</order>

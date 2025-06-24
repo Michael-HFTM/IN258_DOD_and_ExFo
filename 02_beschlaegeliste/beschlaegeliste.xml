@@ -1,0 +1,23 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<doc>
+    <positions>
+        <position name="Schrank">
+            <article name="CLIP Top 110° Inserta Eckanschlag mit BLUMOTION (Seite 16 mm)" nr="71B3590" supplier="BLUM" type="L" amount="10" />
+            <article name="Inserta-Kreuzmontageplatte (Distanz 3)" nr="174H7130I" supplier="BLUM" type="L" amount="10" />
+            <article name="Dübel Buche gerillt Ø8x40mm" nr="8x40" supplier="Eberhart" type="L" amount="80" />
+            <article name="Minifix 15-Gehäuse (19 mm)" nr="262.25.623" supplier="HÄFELE" type="L" amount="20" />
+            <article name="Minifix-Spreizbolzen Ø8mm (Mass 24)" nr="262.09.202" supplier="HÄFELE" type="L" amount="20" />
+            <article name="Systemschrauben 13 mm (1000er Pack)" nr="661.1300.HG" supplier="BLUM" type="L" amount="12" />
+            <article name="LEGRABOX Korpusschiene mit BLUMOTION, Vollauszug, 40 kg, NL=600 mm, links/rechts" nr="750.6001B" supplier="BLUM" type="B" amount="1" />
+            <article name="LEGRABOX Zarge, Höhe C (177,0 mm), NL=600 mm, l/r" nr="770C6002S" supplier="BLUM" type="B" amount="1" />
+            <article name="LEGRABOX Holzrückwandhalter, Höhe C (193 mm), l/r" nr="ZB7C000S" supplier="BLUM" type="B" amount="1" />
+            <article name="LEGRABOX Bodenstabilisierung" nr="Z96.10E1" supplier="BLUM" type="L" amount="1" />
+            <article name="Tablarträger ohne Zapfen (100 Pack)" nr="48.076.01" supplier="GELA" type="L" amount="20" />
+            <article name="Puffer zum Einbohren weiss (1000 Pack)" nr="48.364.51" supplier="GELA" type="L" amount="12" />
+            <article name="Griff mit 128mm Lochdistanz" nr="?" supplier="?" type="B" amount="2" />
+        </position>
+        <position name="...">
+            <!-- put other postion articles here-->
+        </position>
+    </positions>
+</doc>

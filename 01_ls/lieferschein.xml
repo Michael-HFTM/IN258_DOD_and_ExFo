@@ -1,0 +1,22 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<doc>
+    <address>
+        <name>Mir egal GmbH</name>
+        <street>Lagerstrasse 18</street>
+        <plz>4500</plz>
+        <ort>Solothurn</ort>
+    </address>
+    <main>
+        <header>
+            <number>L2014-0000035</number>
+            <deliverydate>2014-04-25</deliverydate>
+            <yourRef>Fredi Hinz</yourRef>
+            <ourRef>Gustav Gans</ourRef>
+        </header>
+        <positions>
+            <position number="1" name="Bluetenpollen C30 Beifuss" amount="10.0"/>
+            <position number="2" name="Bluetenpollen C30 Erle" id="BP-C30-E" amount="10.0"/>
+            <position number="3" name="Bluetenpollen C30 Roggen" amount="10.0"/>
+        </positions>
+    </main>
+</doc>
