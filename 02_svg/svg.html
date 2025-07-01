@@ -1,16 +1,64 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
-    <body>
-        <svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
-            <ellipse cx="120" cy="120" rx="90" ry="100"
-                style="fill:yellow;stroke:black;stroke-width:2"/>
-            <circle cx="75" cy="100" r="10" stroke="white" stroke-width="12" fill="blue"/>
-            <circle cx="160" cy="100" r="10" stroke="white" stroke-width="12" fill="blue"/>
-            <path d="M85,160 
-               A35,20 0 0 0 155,160 
-               Q120,180 85,160"
-            fill="white" stroke="black" stroke-width="3"/>
-        </svg>
-    </body>
+
+<body>
+    <svg width="1000" height="1000" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+        <style>
+            .square {
+                fill: none;
+                stroke: black;
+                stroke-width: 1;
+            }
+
+            .arc {
+                fill: none;
+                stroke: red;
+                stroke-width: 2;
+            }
+
+            .label {
+                font-family: Arial, sans-serif;
+                font-size: 12px;
+                fill: rgb(112, 112, 112);
+            }
+        </style>
+
+        <!-- Squares -->
+        <rect x="650" y="450" width="10" height="10" class="square" />
+        <rect x="640" y="450" width="10" height="10" class="square" />
+        <rect x="640" y="460" width="20" height="20" class="square" />
+        <rect x="660" y="450" width="30" height="30" class="square" />
+        <rect x="640" y="400" width="50" height="50" class="square" />
+        <rect x="560" y="400" width="80" height="80" class="square" />
+        <rect x="560" y="480" width="130" height="130" class="square" />
+        <rect x="690" y="400" width="210" height="210" class="square" />
+        <rect x="560" y="60" width="340" height="340" class="square" />
+        <rect x="10" y="60" width="550" height="550" class="square" />
+
+        <!-- Quarter-circle arcs -->
+        <path d="M650 450 A10 10 0 0 1 660 460" class="arc" />
+        <path d="M650 450 A10 10 0 0 0 640 460" class="arc" />
+        <path d="M640 460 A20 20 0 0 0 660 480" class="arc" />
+        <path d="M660 480 A30 30 0 0 0 690 450" class="arc" />
+        <path d="M690 450 A50 50 0 0 0 640 400" class="arc" />
+        <path d="M640 400 A80 80 0 0 0 560 480" class="arc" />
+        <path d="M560 480 A130 130 0 0 0 690 610" class="arc" />
+        <path d="M690 610 A210 210 0 0 0 900 400" class="arc" />
+        <path d="M900 400 A340 340 0 0 0 560 60" class="arc" />
+        <path d="M560 60 A550 550 0 0 0 10 610" class="arc" />
+
+        <!-- Labels -->
+        <text x="652" y="458" class="label">1</text>
+        <text x="642" y="458" class="label">1</text>
+        <text x="647" y="474" class="label">2</text>
+        <text x="672" y="470" class="label">3</text>
+        <text x="662" y="428" class="label">5</text>
+        <text x="597" y="445" class="label">8</text>
+        <text x="615" y="550" class="label">13</text>
+        <text x="785" y="510" class="label">21</text>
+        <text x="725" y="240" class="label">34</text>
+        <text x="280" y="340" class="label">55</text>
+    </svg>
+</body>
+
 </html>
