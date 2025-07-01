@@ -1,5 +1,6 @@
-<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
-<doc>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="beschlaegeliste.xsd">
     <positions>
         <position name="Schrank">
             <article name="CLIP Top 110° Inserta Eckanschlag mit BLUMOTION (Seite 16 mm)" nr="71B3590" supplier="BLUM" type="L" amount="10" />
@@ -14,10 +15,13 @@
             <article name="LEGRABOX Bodenstabilisierung" nr="Z96.10E1" supplier="BLUM" type="L" amount="1" />
             <article name="Tablarträger ohne Zapfen (100 Pack)" nr="48.076.01" supplier="GELA" type="L" amount="20" />
             <article name="Puffer zum Einbohren weiss (1000 Pack)" nr="48.364.51" supplier="GELA" type="L" amount="12" />
-            <article name="Griff mit 128mm Lochdistanz" nr="?" supplier="?" type="B" amount="2" />
+            <article name="Griff mit 128mm Lochdistanz" nr="45.132.51" supplier="GELA" type="B" amount="2"/>
         </position>
-        <position name="...">
-            <!-- put other postion articles here-->
+        <position name="Regal">
+            <article name="Dübel Buche gerillt Ø8x40mm" nr="8x40" supplier="Eberhart" type="L" amount="120"/>
+            <article name="CLIP Top 110° Inserta Eckanschlag mit BLUMOTION (Seite 16 mm)" nr="71B3590" supplier="BLUM" type="L" amount="20" />
+            <article name="Inserta-Kreuzmontageplatte (Distanz 3)" nr="174H7130I" supplier="BLUM" type="L" amount="20" />
+            <article name="Tablarträger mit Zapfen (100 Pack)" nr="48.076.11" supplier="GELA" type="L" amount="160" />
         </position>
     </positions>
 </doc>
